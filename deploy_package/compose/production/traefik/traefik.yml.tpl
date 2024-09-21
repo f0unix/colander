@@ -59,7 +59,7 @@ http:
         certResolver: letsencrypt
 
   middlewares:
-    compress-http:
+      compress-http:
       # https://doc.traefik.io/traefik/middlewares/http/compress/
       compress: true
     csrf:
